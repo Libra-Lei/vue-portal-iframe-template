@@ -1,6 +1,9 @@
 {
-  "name": "web_portal",
-  "version": "1.0.0",
+  "name": "<%=pkgName%>",
+  "version": "<%=pkgVersion%>",
+  "autor": "<%=pkgAutor%>",
+  "description": "<%=pkgDesc%>",
+  "license": "<%=pkgLicense%>",
   "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development vue-cli-service serve",
